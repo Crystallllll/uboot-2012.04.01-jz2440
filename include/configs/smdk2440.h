@@ -219,7 +219,7 @@
 #define MTDIDS_DEFAULT		"nand0=jz2440-0"  /* 哪一个设备 */
 #define MTDPARTS_DEFAULT	"mtdparts=jz2440-0:256k(u-boot),"	\
 						"128k(params),"		\
-						"2m(kernel),"	\
+						"4m(kernel),"	\
 						"-(rootfs)"		\
 
 
